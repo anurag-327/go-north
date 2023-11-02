@@ -12,6 +12,13 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        "primary":"#FF6969",
+        "overlay-1":"#C0B8DF"
+      },
+      fontFamily:{
+        "tag":["Edu TAS Beginner", "cursive"]
+      }
     },
   },
   plugins: [],
