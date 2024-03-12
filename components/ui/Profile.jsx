@@ -3,9 +3,13 @@ import Image from "next/image";
 const Profile = () => {
   return (
     <section>
-      <header className="flex items-center justify-between w-full my-4 text-3xl">
-        <span>Ashish Khare</span>
-        <span>Anurag Srivastav</span>
+      <header className="flex flex-col items-center justify-between w-full my-4 text-3xl sm:flex-row">
+        <a className="hover:underline" href="https://ashishk1331.vercel.app/">
+          Ashish Khare
+        </a>
+        <a className="hover:underline" href="https://anuragsri327.vercel.app/">
+          Anurag Srivastav
+        </a>
       </header>
       <div className="flex flex-col gap-4 md:flex-row">
         <Image
